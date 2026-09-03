@@ -1,0 +1,21 @@
+# Recordings. Excluded on purpose, for two reasons:
+#   1. They are recordings of a person's chest — biometric data. This repo is
+#      public. Do not publish them without deciding to, deliberately.
+#   2. They are large (a 30 s raw capture is ~1.9 MB) and fully regenerable by
+#      re-running the recorder.
+# To publish a specific one anyway:  git add -f chest01.png
+*.wav
+*.png
+
+# Python
+__pycache__/
+*.py[cod]
+
+# JetBrains
+.idea/
+
+# Build output
+build/
+*.bin
+*.elf
+*.map
